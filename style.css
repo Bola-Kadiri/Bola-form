@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+
+.page-1{
+    width: 50%;
+    max-width: 700px;
+    height: 600px;
+    background-color: rgb(21, 143, 21); 
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(10%, 50%);
+    padding: 30px;   
+}
+.inner-div{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #faf3f3;
+    width: 80%;
+}
+
+.inner-div h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.inner-div ul{
+    display: flex;  
+    justify-content: space-between;
+}
+.inner-div ul li{
+    list-style: none;
+    font-size: 23px;
+}
+
+.inner-div ul li a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.page-2{
+    width: 40%;
+    max-width: 700px;
+    height: 600px;
+    background-color: rgb(46, 42, 42); 
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(12%, 50%);
+    padding: 30px;
+
+}
+.inner-div-1 audio{
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 100px;
+}
+.inner-div-2{
+    position: absolute;
+    top: 15px;
+    margin: 0 auto;
+    align-items: center;
+    border-color: #fff;
+    width: 90%;
+    height: 100%;
+}
+.icon{
+    padding: 6px;
+    background: rgb(24, 20, 20);
+    min-width: 20px;
+    position: relative;
+    color: #fff;
+    border-radius: 50%;  
+    border-style: groove;
+    margin-bottom: 20px;
+}
+.header-div{
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+.para-div{
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.input{
+    border-color: white;
+
+}
+.icons{
+    position: relative;
+    left: 5px;
+    padding: 16px;
+    background-color: rgb(34, 30, 30);
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-blend-mode: overlay;
+
+}
+.input-field{
+    width: 50%;
+    position: relative;
+    background-color: rgb(34, 30, 30);
+    padding: 15px;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+.star{
+    padding: 8px;
+}
+/* .check{
+    position: relative;
+    top: 2px;
+} */
+.check .link{
+       text-align: left;
+       text-decoration: none;
+       color: green;
+}
+.check label{
+    color: #fff;
+    margin-left: 3px;
+}
+
+.box{
+    margin: 20px 0px 20px 20px;
+    
+}
+.butt{
+    margin-top: 30px;
+}
+.butt a{
+    padding: 15px 42px;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: rgb(21, 143, 21);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* .butt button{
+    padding: 15px 100px;
+    background-color:green;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+} */
+.center-page{
+    text-align: center;
+    margin-top: 30px;
+}
+.para-2 {
+    color: #fff;
+    justify-content: center;
+}
+.icon1{
+    padding: 5px;
+    background: rgb(24, 20, 20);
+    position: relative;
+    color: #fff;
+    border-style: groove;
+    border-width: 0px;
+    border-radius: 100%;
+    margin: 10px;
+}
+/* .para-2 .icon1{
+
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+} */
+.link{
+    color: green;
+}
+
+
+
+
